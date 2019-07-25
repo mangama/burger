@@ -1,6 +1,3 @@
-//selectAll()
-//insertOne()
-//updateOne()
 // Import MySQL connection.
 var connection = require("../config/connection.js");
 
@@ -92,16 +89,6 @@ var orm = {
     });
   }
 
-  // delete: function(table, condition, cb){
-  //   var queryString = `DELETE FROM ${table} WHERE ${condition}`
-
-  //   connection.query(queryString,function(err, result){
-  //     if (err){
-  //       throw err;
-  //     }
-  //     cb(result);
-  //   })
-  // }
 };
 
 // Export the orm object for the model (cat.js).

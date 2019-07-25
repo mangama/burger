@@ -11,19 +11,25 @@ li {
   }
   
 .create-update-form {
-    padding: 5px;
-    margin: 5px;
+    /* padding: 5px;
+    margin: 5px; */
     background: aqua;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
   
 .form-group {
     margin-bottom: 5px;
-    position: relative;
+  
   }
 
 .classBody{
-  margin: 100px;
+  /* margin: 50px; */
+  padding: 50px; 
   background-color: rgb(136, 177, 136);
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .change-devoured{
@@ -35,10 +41,11 @@ li {
 }
 
 #bu {
-  margin-left:20px;
+  /* margin-left:20px; */
      height:100px;
     width:250px;
     border:5px black;
+    object-position: center;
 }
   
 #submitId{
@@ -53,4 +60,13 @@ li {
   width: 50%;
   height:150px;
   width: 250px;
+}
+
+h1{
+text-align: center;
+}
+
+input label{
+  object-position: center;
+  
 }
