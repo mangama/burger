@@ -1,14 +1,12 @@
-<h1>Da-Burger!</h1>
+<h1>Eat-Da-Burger!</h1>
 <hr>
-<br>
 <div>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo30V1sEpwnxvQxh6Do1XLHaedrAA1I4ggjr8k7v9N5DHTMRFPrg" class="center">
 </div>
-<br>
-<br>
-<div class="row">
+<hr>
+<div class="row" id="container">
 
-  <div class="col-5">
+  <div class="col-6">
     <h4>Burger To Devour</h4>
     {{#each burgers}}
     {{#unless devoured}}
@@ -17,7 +15,7 @@
     {{/each}}
   </div>
   
-  <div class="col-5">
+  <div class="col-6">
     <h4>Devoured Burgers!</h4>
     {{#each burgers}}
     {{#if devoured}}
