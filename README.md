@@ -1,4 +1,4 @@
-# burger
+# Eat-Da-Burger!
 
 ### How does the application work?
 
