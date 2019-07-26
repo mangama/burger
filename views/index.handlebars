@@ -7,7 +7,7 @@
 <div class="row" id="container">
 
   <div class="col-6" id="buToBeDevoured">
-    <h4>Burger To Devour</h4>
+    <h5>Burger To Devour</h5>
     {{#each burgers}}
     {{#unless devoured}}
     {{> burgers/burger-block devoured=true}}
@@ -15,8 +15,8 @@
     {{/each}}
   </div>
   
-  <div class="col-6  text-muted">
-    <h4  class="text">Devoured Burgers!</h4>
+  <div class="col-6  text-light text-muted">
+    <h5  class="text">Devoured Burgers!</h5>
     {{#each burgers}}
     {{#if devoured}}
     {{> burgers/burger-block devoured=false}}
@@ -27,7 +27,7 @@
 </div>
 
 <form class="create-form" >
-  <br>
+
   <div class="row justify-content-center">
     <span class="border">
     <input type="text" id="bu" name="name">
@@ -36,6 +36,8 @@
    <br>
   <div class="row justify-content-center">
   <button type="submit" id="submitId">Add Burger</button>
+
  </div>
-<br>
+  <div class="row justify-content-center">
+    Enter a burger you want to eat then click the "Submit" button.</div> 
 </form>
