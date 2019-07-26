@@ -10,16 +10,13 @@ li {
     font-weight: bold;
   }
   
-.create-update-form {
+.create-form {
   
-    
+  /* background-color: rgb(255, 241, 240); */
+  position: flex;
   }
   
-.form-group {
-    margin-bottom: 5px;
-    background-color: aliceblue;
-  
-  }
+
 
 .classBody{
   /* margin: 50px; */
@@ -37,16 +34,18 @@ li {
 }
 
 #bu {
-  /* margin-left:20px; */
-     height:100px;
-    width:250px;
+    height:100px;
+    width:400px;
     border:5px black;
-    /* object-position: center; */
+
 }
   
 #submitId{
   border-radius: .2em;
   background-color: rgb(86, 173, 255);
+  height:40px;
+  width: 150px;
+  font-size: 15px;
 }
 
 .center {
@@ -61,15 +60,13 @@ li {
 h1{
 text-align: center;
 color: red;
-font: 3em sans-serif;
+/* font: 3em sans-serif; */
 }
 
-h4{
-  text-underline-position: below .2em grey;
-  
-  
-}
 #container{
   margin:50px;
 }
 
+.text{
+  color: #212529;
+}
